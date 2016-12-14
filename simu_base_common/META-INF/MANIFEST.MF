@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: simu_base_common
+Bundle-SymbolicName: simu_base_common
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: simu_dependencies;bundle-version="1.0.0";visibility:=reexport
+Import-Package: org.apache.commons.math3.geometry.euclidean.threed,
+ org.jscience.physics.amount
+Export-Package: enstabretagne.base.math,
+ enstabretagne.base.messages,
+ enstabretagne.base.models.environment,
+ enstabretagne.base.time,
+ enstabretagne.base.utility,
+ enstabretagne.base.utility.loggerimpl,
+ enstabretagne.simulation.components,
+ enstabretagne.simulation.core

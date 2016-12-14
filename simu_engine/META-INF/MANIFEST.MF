@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: simu_engine
+Bundle-SymbolicName: simu_engine
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: simu_base_common;bundle-version="1.0.0";visibility:=reexport
+Export-Package: enstabretagne.expertise.cinematique,
+ enstabretagne.monitors,
+ enstabretagne.simulation.components,
+ enstabretagne.simulation.core

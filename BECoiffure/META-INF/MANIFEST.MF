@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Simu_sample_TD1_Simple_Engine_Solution
+Bundle-SymbolicName: simu_sample_TD1_Simple_Engine_Solution
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: simu_sample_TD1_Simple_Engine_Sujet;bundle-version="1.0.0";visibility:=reexport
