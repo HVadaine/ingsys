@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Random;
 
+import config.Prop;
 import data.Lane;
 import engine.impl.BasicSimEngine;
 import logger.impl.SysOutLogger;
@@ -35,10 +36,10 @@ public class Monitor {
 		
 		Environment env = new Environment();
 		
-		env.addNode(new Cross());
-		env.addNode(new Cross());
-		env.addNode(new Cross());
-		env.addNode(new Cross());
+		env.addNode(new Cross(true,8));
+		env.addNode(new Cross(true,9));
+		env.addNode(new Cross(true,10));
+		env.addNode(new Cross(true,11));
 		env.addNode(new Frontier(1));
 		env.addNode(new Frontier(2));
 		env.addNode(new Frontier(3));
@@ -62,6 +63,10 @@ public class Monitor {
 		
 		engine.processEventsUntil(startTime.plus(duration));
 		engine.getLoggerHub().terminate();
+		
+		//Fermeture du fichier de conf
+		Prop.self.close();
+		
 	}
 	
 }
