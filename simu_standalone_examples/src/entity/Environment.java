@@ -6,22 +6,22 @@ import java.util.List;
 
 public class Environment {
 	private HashMap<Integer,Line> lineList;
-	private HashMap<Integer,Cross> crossList;
+	private HashMap<Integer,Node> nodeList;
 	
 	public Environment()
 	{
 		lineList =new HashMap<>();
-		crossList = new HashMap<>();
+		nodeList = new HashMap<>();
 	}
 	
 	public void addLine(Line line)
 	{
-		lineList.put(line.getId(), line);
+		lineList.put(line.getID(), line);
 	}
 	
-	public void addCross(Cross cross)
+	public void addNode (Node node)
 	{
-		crossList.put(cross.getId, cross);
+		nodeList.put(node.getID(), node);
 	}
 	
 	public Line getLine(int id)
@@ -29,9 +29,9 @@ public class Environment {
 		return lineList.get(id);
 	}
 	
-	public Cross getCross(int id)
+	public Node getNode(int id)
 	{
-		return crossList.get(id);
+		return nodeList.get(id);
 	}
 	
 }
