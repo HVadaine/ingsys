@@ -1,4 +1,4 @@
-package fr.ensta.simu.logger;
+package logger;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;

@@ -1,11 +1,11 @@
-package fr.enstabretagne.simu.engine.impl;
+package engine.impl;
 
 import java.time.LocalDateTime;
 import java.util.function.Consumer;
 
-import fr.enstabretagne.simu.engine.AbstractSimEvent;
-import fr.enstabretagne.simu.engine.ISimEngine;
-import fr.enstabretagne.simu.engine.ISimEntity;
+import engine.AbstractSimEvent;
+import engine.ISimEngine;
+import engine.ISimEntity;
 
 public class FunctionalSimEvent<E extends ISimEntity> extends AbstractSimEvent<E> {
 	

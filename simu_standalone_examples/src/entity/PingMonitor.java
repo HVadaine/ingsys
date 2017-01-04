@@ -1,11 +1,11 @@
-package fr.ensta.simu.examples.ping;
+package entity;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Random;
 
-import fr.ensta.simu.logger.impl.SysOutLogger;
-import fr.enstabretagne.simu.engine.impl.BasicSimEngine;
+import engine.impl.BasicSimEngine;
+import logger.impl.SysOutLogger;
 
 public class PingMonitor {
 

@@ -1,11 +1,11 @@
-package fr.enstabretagne.simu.engine.impl;
+package engine.impl;
 
 import java.time.LocalDateTime;
 import java.util.PriorityQueue;
 
-import fr.ensta.simu.logger.impl.LoggerHub;
-import fr.enstabretagne.simu.engine.ISimEngine;
-import fr.enstabretagne.simu.engine.ISimEvent;
+import engine.ISimEngine;
+import engine.ISimEvent;
+import logger.impl.LoggerHub;
 
 public class BasicSimEngine implements ISimEngine {
 	

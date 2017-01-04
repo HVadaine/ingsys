@@ -1,12 +1,12 @@
-package fr.enstabretagne.simu.engine;
+package engine;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import fr.ensta.simu.logger.impl.LoggerHub;
-import fr.enstabretagne.simu.engine.impl.FunctionalSimEvent;
+import engine.impl.FunctionalSimEvent;
+import logger.impl.LoggerHub;
 
 
 public interface ISimEngine {

@@ -1,10 +1,10 @@
-package fr.ensta.simu.examples.ping;
+package entity;
 
 import java.time.Duration;
 import java.util.function.Supplier;
 
-import fr.enstabretagne.simu.engine.ISimEngine;
-import fr.enstabretagne.simu.engine.ISimEntity;
+import engine.ISimEngine;
+import engine.ISimEntity;
 
 public class PingEntity implements ISimEntity {
 

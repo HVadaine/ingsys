@@ -1,10 +1,10 @@
-package fr.ensta.simu.logger.impl;
+package logger.impl;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
-import fr.ensta.simu.logger.ILogger;
+import logger.ILogger;
 
 public class LoggerHub implements ILogger {
 	

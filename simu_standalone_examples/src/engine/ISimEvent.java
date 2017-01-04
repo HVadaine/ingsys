@@ -1,4 +1,4 @@
-package fr.enstabretagne.simu.engine;
+package engine;
 
 import java.time.LocalDateTime;
 

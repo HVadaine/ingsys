@@ -1,6 +1,6 @@
-package fr.ensta.simu.logger.impl;
+package logger.impl;
 
-import fr.ensta.simu.logger.AbstractLogger;
+import logger.AbstractLogger;
 
 public class SysOutLogger extends AbstractLogger {
 
