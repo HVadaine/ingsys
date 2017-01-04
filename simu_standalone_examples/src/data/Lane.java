@@ -1,7 +1,5 @@
 package data;
 
-import entity.Node;
-
 public enum Lane {
 	lane_1(0,7,0,100),
 	lane_2(7,0,0,100),
