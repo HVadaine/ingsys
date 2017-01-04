@@ -18,13 +18,6 @@ public class Line  implements ISimEntity {
 		this.end = end;
 	}
 	
-	public LinkedList<Car> getCars() {
-		return cars;
-	}
-	public void setCars(LinkedList<Car> cars) {
-		this.cars = cars;
-	}
-	
 	public boolean isFull(){
 		double l = 0.0;
 		for(Car c : cars){
@@ -36,4 +29,17 @@ public class Line  implements ISimEntity {
 		else
 			return false;
 	}
+	
+	public LinkedList<Car> getCars() {
+		return cars;
+	}
+	public void setCars(LinkedList<Car> cars) {
+		this.cars = cars;
+	}
+
+	public int getID() {
+		return ID;
+	}
+	
+	
 }
